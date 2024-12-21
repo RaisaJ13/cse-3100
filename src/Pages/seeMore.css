@@ -1,0 +1,20 @@
+.Container{
+    justify-self: center;
+    margin: 50px ;
+    display: flex; 
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 8px;
+}
+
+.team-container{
+    flex: 1 1 200px;
+    max-width: 200px;
+    text-align: center;
+}
+.team-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap; 
+  }

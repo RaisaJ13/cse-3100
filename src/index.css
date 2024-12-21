@@ -1,0 +1,32 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  padding: 1em;
+}
+
+main {
+  flex: 1;
+  padding: 1em;
+}
+footer {
+  padding: 1em;
+  text-align: center;
+}
+
+.cat-card {
+  border: 1px solid #ddd;
+  text-align: center;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.cat-info {
+  background: #f8f9fa;
+  border-radius: 4px;
+}
